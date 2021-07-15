@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'icrecreamFont';
+  font-size: 30px; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #156064;
+  color: #92D1C3;
+}
+h1{
+  font-size: 80px;
+  color: #92D1C3;
+}
+input{
+  padding: 10px;
+  font-size: 24px;
+}
+button{
+  padding: 15px 35px;
+  color: #156064;
+  border: #92D1C3 solid 1px;
+  font-weight: bold;
+  background-color: #FB8F67;
+}
+footer{
+  position: fixed;  
+  bottom: 0;
+  left: 46%;
+}
+table{
+  font-family: 'Times New Roman', Times, serif;
+}
+tr{
+  font-size: 20px;
+}
+td{
+  font-size: 18px; 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+label{
+  font-size:24px !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+@font-face {
+  font-family: icrecreamFont;
+  src: url('./font/SundaeBiteFreeTrial-jE7Jj.otf') format("opentype");
+}
+a{
+  font-size: 35px;
+  text-decoration: underline;
+}
+p{
+  font-size: 28px;
+}

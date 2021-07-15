@@ -1,0 +1,123 @@
+.App {
+  text-align: center;  
+  text-align: -webkit-center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.sidenavButton{
+  position: absolute;
+    left: 0;
+    top: 100px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;  
+}
+.container div{
+  padding: 15px 35px;
+}
+.table{
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 60%;
+}
+
+/* ===================== NAV BAR ==================================== */
+nav.sidebar.navbar {
+  border-radius: 0px;
+}
+
+nav.sidebar, .main{
+  -webkit-transition: margin 200ms ease-out;
+    -moz-transition: margin 200ms ease-out;
+    -o-transition: margin 200ms ease-out;
+    transition: margin 200ms ease-out;
+}
+nav.sidebar:hover + .main{
+  margin-left: 200px;
+}
+
+
+nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 0px;
+}
+
+nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+}
+
+nav.sidebar a{
+  padding-right: 13px;
+}
+
+nav.sidebar .navbar-nav > li:first-child{
+  border-top: 1px #e5e5e5 solid;
+}
+
+nav.sidebar .navbar-nav > li{
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu {
+  position: relative;
+  float: none;
+  width: auto;
+  margin-top: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+  padding: 0 0px 0 0px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+  color: #777;
+}
+
+nav.sidebar{
+  top: -100px;
+  width: 180px;
+  height: 100%;
+  float: left;
+  z-index: 8000;
+  margin-bottom: 0px;
+}
+
+nav.sidebar li {
+  width: 100%;
+}
+
+nav.sidebar:hover{
+  margin-left: 0px;
+}
+.loginContainer{
+  background-image: url("./assets/ice-cream.png");
+  height: 87vh;
+}
+/* Overlay Loading */
+.overlay_loader{
+  position: fixed; 
+  display: block;
+  width: 70%;
+  height: 70%;
+  top: 30px;
+  left: 15%;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  cursor:progress; 
+}
